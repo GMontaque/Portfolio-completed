@@ -27,6 +27,7 @@ body {
 }
 
 .upArrowStlye {
+	position: fixed;
 	position: sticky;
 	top: 85%;
 	left: 94%;

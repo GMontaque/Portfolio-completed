@@ -111,7 +111,7 @@ function resetForms() {
 	}, 1000);
 }
 
-/**********************hide bottom footer text************************************/
+/**********************hide bottom footer text and correct colour on mobile ************************************/
 
 $(window).scroll(function () {
 	let scrollBottom = $(window).scrollTop() + $(window).height();
@@ -120,5 +120,8 @@ $(window).scroll(function () {
 		$("#Github").removeClass("show");
 		$("#email").removeClass("show");
 		$("#phoneNumber").removeClass("show");
+		document.getElementById("phoneLink").style.color = "white";
+		document.getElementById("emailLink").style.color = "white";
+		document.getElementById("githubLink").style.color = "white";
 	}
 });

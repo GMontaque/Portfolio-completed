@@ -104,11 +104,31 @@ $(document).ready(function () {
 /**********************reset submitted form************************************/
 
 function resetForms() {
-	setTimeout(function () {
-		document.getElementById("userEmail").value = "";
-		document.getElementById("subjectBar").value = "";
-		document.getElementById("emailBody").value = "";
-	}, 1000);
+	let emailFrom = document.getElementById("emailForm");
+	if (emailFrom.checkValidity()) {
+		setTimeout(function () {
+			document.getElementById("userEmail").value = "";
+			document.getElementById("subjectBar").value = "";
+			document.getElementById("emailBody").value = "";
+			document.getElementById("sumbit").disabled = false;
+		}, 1000);
+	} else {
+		return;
+	}
+}
+
+/**********************email form validation ************************************/
+
+function manage(emailForm) {
+	let email = document.getElementById("userEmail");
+	let subject = document.getElementById("subjectBar");
+	let body = document.getElementById("emailBody");
+	var bt = document.getElementById("submit");
+	if (email.value && subject.value && body.value != "") {
+		bt.disabled = false;
+	} else {
+		bt.disabled = true;
+	}
 }
 
 /**********************hide bottom footer text and correct colour on mobile ************************************/

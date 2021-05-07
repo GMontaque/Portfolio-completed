@@ -693,11 +693,12 @@
 						action="https://getform.io/f/a422edc1-183a-45b8-9836-2bf2ae667202"
 						method="POST"
 						id="emailForm"
+						onkeyup="manage(this)"
 					>
 						<div class="form-group">
 							<label for="userEmail">Your Email Address</label>
 							<input
-								type="email"
+								pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
 								name="email"
 								class="form-control"
 								id="userEmail"
@@ -730,6 +731,8 @@
 								value="Send"
 								class="btn btn-primary formButton"
 								onclick="resetForms()"
+								id="submit"
+								disabled
 							>
 								Submit
 							</button>

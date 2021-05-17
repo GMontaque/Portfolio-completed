@@ -16,8 +16,8 @@ html {
 body {
 	box-sizing: border-box;
 	font-family: "Lexend Deca", sans-serif;
-	background-color: #f1f4f9 !important;
-	color: #566473 !important;
+	background-color: #f1f4f9;
+	color: #566473;
 }
 
 /*********************** General ***********************/
@@ -71,19 +71,19 @@ body {
 }
 
 .navbar-nav {
-	display: inline-block !important;
+	display: inline-block;
 	margin-right: 1rem;
 	padding: 0.4rem 0.5rem 0.8rem 0.5rem;
 }
 
 .nav-item {
-	display: inline-block !important;
+	display: inline-block;
 	margin-right: 1rem;
 	font-size: 2rem;
 }
 
 .navbarStyle {
-	position: fixed !important;
+	position: fixed;
 	width: 100%;
 	z-index: 100;
 }
@@ -94,14 +94,14 @@ body {
 }
 
 .navButton {
-	display: flex !important;
+	display: flex;
 	margin-top: 3rem;
 	margin-right: 4rem;
 }
 
 .buttonStyle {
-	background-color: #566473 !important;
-	border: 0.2rem #566473 solid !important;
+	background-color: #566473;
+	border: 0.2rem #566473 solid;
 	width: 6rem;
 	height: 5.6rem;
 }
@@ -172,7 +172,7 @@ body {
 
 .titleSize {
 	font-size: 6vw;
-	top: 40% !important;
+	top: 40%;
 }
 
 .typewriter {
@@ -276,16 +276,15 @@ body {
 }
 
 .progress {
-	height: 3rem !important;
-
-	margin: 2rem auto !important;
+	height: 3rem;
+	margin: 2rem auto;
 	width: 80%;
-	background-color: #566473 !important;
+	background-color: #566473;
 }
 
 .progress-bar {
-	background-color: white !important;
-	color: #566473 !important;
+	background-color: white;
+	color: #566473;
 	font-size: 1.5rem;
 }
 
@@ -525,12 +524,12 @@ body {
 
 .projectTitle {
 	padding: 2rem 0rem;
-	margin-bottom: 10rem !important;
+	margin-bottom: 10rem;
 }
 
 .flip-container,
 .cardFront {
-	height: 33rem !important;
+	height: 33rem;
 }
 
 .projectBack-h1 {
@@ -660,19 +659,19 @@ footer {
 }
 
 .formStyle {
-	width: 100% !important;
+	width: 100%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0rem auto;
-	position: absolute !important;
+	position: absolute;
 	padding: 0rem 2rem;
 	height: max-content;
 }
 
 .footerTitle {
 	margin-top: 5rem;
-	color: white !important;
+	color: white;
 }
 
 @media (max-width: 425px) {
@@ -696,10 +695,10 @@ footer {
 }
 
 .formButton {
-	width: 10rem !important;
-	padding: 1.5rem 2rem !important;
-	border-radius: 1rem !important;
-	margin-top: 2rem !important;
+	width: 10rem;
+	padding: 1.5rem 2rem;
+	border-radius: 1rem;
+	margin-top: 2rem;
 	background-color: #566473 !important;
 	border: #566473 0.5rem solid !important;
 }

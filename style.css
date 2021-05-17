@@ -47,6 +47,12 @@ body {
 	}
 }
 
+@media (max-width: 425px) {
+	.subTitle {
+		font-size: 14vw;
+	}
+}
+
 /*********************** Navbar ***********************/
 
 .active {
@@ -194,8 +200,8 @@ body {
 
 @media (max-width: 426px) {
 	.titleSize {
-		font-size: 10vw;
-		left: 7%;
+		font-size: 9vw;
+		left: 8%;
 	}
 
 	.typewriter {
@@ -323,6 +329,14 @@ body {
 	#timeline .timeline-badge {
 		border: none !important;
 		z-index: 0 !important;
+	}
+}
+
+@media (max-width: 426px) {
+	.educationTitle {
+		color: white;
+		margin-bottom: 12rem;
+		/* font-size: 10vw; */
 	}
 }
 
@@ -509,7 +523,7 @@ body {
 	margin-bottom: 10rem;
 }
 
-.projectHeader {
+.projectTitle {
 	padding: 2rem 0rem;
 	margin-bottom: 10rem !important;
 }
@@ -661,6 +675,12 @@ footer {
 	color: white !important;
 }
 
+@media (max-width: 425px) {
+	.footerTitle {
+		font-size: 12vw !important;
+	}
+}
+
 .footerImage {
 	position: relative;
 	width: 100vw;
@@ -726,7 +746,7 @@ footer {
 
 @media (max-width: 357px) {
 	.bottomFooter-title {
-		margin-top: 20rem;
+		margin-top: 1rem;
 	}
 }
 

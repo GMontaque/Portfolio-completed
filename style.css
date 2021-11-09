@@ -233,7 +233,7 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	.aboutText {
 		margin: 3rem 3rem;
 	}
@@ -318,7 +318,7 @@ body {
 	font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	.educationBackgroundImage {
 		width: 100vw;
 	}
@@ -518,7 +518,13 @@ body {
 
 .project {
 	padding: 0rem 3rem;
-	height: 33rem;
+	height: 55vh;
+}
+
+@media (max-width: 1025px) {
+	.project {
+		height: 70vh;
+	}
 }
 
 #projects {
@@ -662,15 +668,16 @@ body {
 .cardBack {
 	transform: rotateY(-180deg);
 	background-color: #bbb;
-	height: 42rem;
+	height: inherit;
 	color: black;
 	border-radius: 3rem;
 	text-align: center;
+	padding: 1rem;
 }
 
 /* project smaller screen and mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	.cardFront {
 		visibility: hidden;
 		transform: none;
@@ -685,7 +692,7 @@ body {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 	.project {
 		margin: 0rem 0rem 10rem 0rem;
 	}

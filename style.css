@@ -288,6 +288,10 @@ body {
 	font-size: 1.5rem;
 }
 
+.dj-style {
+	height: 19rem;
+	margin: -5rem;
+}
 /*********************** education ***********************/
 
 .educationTitle {
@@ -574,6 +578,38 @@ body {
 	background-image: url(img/weatherApp.PNG);
 }
 
+.imageFront4 {
+	background-size: cover;
+	height: 30rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/raid-webiste.png);
+}
+
+.imageFront5 {
+	background-size: cover;
+	height: 30rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/hangman-website.png);
+}
+
+.imageFront6 {
+	background-size: cover;
+	height: 30rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/pokemon-webiste.png);
+}
+
+.imageFront7 {
+	background-size: cover;
+	height: 30rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/hll-website.png);
+}
+
 .imageBack1 {
 	background-size: cover;
 	height: 23rem;
@@ -596,6 +632,38 @@ body {
 	background-blend-mode: screen;
 	background-position: top;
 	background-image: url(img/weatherApp.PNG);
+}
+
+.imageBack4 {
+	background-size: cover;
+	height: 23rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/raid-webiste.png);
+}
+
+.imageBack5 {
+	background-size: cover;
+	height: 23rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/hangman-website.png);
+}
+
+.imageBack6 {
+	background-size: cover;
+	height: 23rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/pokemon-webiste.png);
+}
+
+.imageBack7 {
+	background-size: cover;
+	height: 23rem;
+	background-blend-mode: screen;
+	background-position: top;
+	background-image: url(img/hll-website.png);
 }
 
 .frontText {

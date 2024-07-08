@@ -131,16 +131,6 @@ function manage(emailForm) {
 	}
 }
 
-// function emailAddress() {
-// 	var input = document.getElementById("userEmail");
-// 	input.oninvalid = function (event) {
-// 		event.target.setCustomValidity(
-// 			"Email address should be entered in the following format: email@tester.com"
-// 		);
-// 	};
-// }
-// emailAddress();
-
 /**********************hide bottom footer text and correct colour on mobile ************************************/
 
 $(window).scroll(function () {

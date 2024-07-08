@@ -642,6 +642,37 @@
 
 						<div class="row timeline-movement">
 							<div class="timeline-badge center-left"></div>
+							<div class="offset-sm-6 col-sm-6 timeline-item">
+								<div class="row">
+									<div class="offset-sm-1 col-sm-11">
+										<div class="timeline-panel debits anim animate fadeInLeft">
+											<div class="timelineTitle">
+												<h3>
+													Code Institute - Diploma in Full-Stack Software
+													Development
+												</h3>
+												<p>2023 - Present</p>
+											</div>
+											<p>
+												I'm currently completing a Full-Stack Software
+												Development Diploma with Code Institute. This course has
+												provided me with comprehensive training in both
+												front-end and back-end development. I've learned to use
+												HTML, CSS, JavaScript, Python, Django, and React. Right
+												now, I'm working on my final project, which is a
+												front-end application using React. Throughout the
+												course, I've built a portfolio of projects and gained
+												practical experience with real-world applications.
+											</p>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row timeline-movement">
+							<div class="timeline-badge center-left"></div>
 							<div class="col-sm-6 timeline-item">
 								<div class="row">
 									<div class="col-sm-11">
@@ -869,11 +900,10 @@
 						method="POST"
 						id="emailForm"
 						onkeyup="manage(this)"
+						onsubmit="resetForms(event)"
 					>
 						<div class="form-group">
 							<label for="userEmail">Your Email Address</label>
-
-							<!-- email validation added directly to input element -->
 							<input
 								type="text"
 								pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"
@@ -909,7 +939,6 @@
 								type="submit"
 								value="Send"
 								class="btn btn-primary formButton"
-								onclick="resetForms()"
 								id="submit"
 								disabled
 							>

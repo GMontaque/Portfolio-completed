@@ -151,11 +151,9 @@ body {
 	width: 100vw;
 	background-size: cover;
 	background-position: center 0%;
-	background-image: linear-gradient(
-			to right bottom,
+	background-image: linear-gradient(to right bottom,
 			rgba(20, 2, 2, 0.7),
-			rgba(36, 6, 6, 0.7)
-		),
+			rgba(36, 6, 6, 0.7)),
 		url(img/trevi-1.jpg);
 	background-attachment: fixed;
 }
@@ -272,6 +270,7 @@ body {
 	height: max-content;
 	text-align: center;
 }
+
 .skillText {
 	width: 80%;
 	margin: 0rem auto;
@@ -296,6 +295,7 @@ body {
 	height: 19rem;
 	margin: -5rem;
 }
+
 /*********************** education ***********************/
 
 .educationTitle {
@@ -308,11 +308,9 @@ body {
 	margin: 0rem auto;
 	background-size: cover;
 	background-position: top;
-	background-image: linear-gradient(
-			to right bottom,
+	background-image: linear-gradient(to right bottom,
 			rgba(20, 2, 2, 0.8),
-			rgba(20, 2, 2, 0.8)
-		),
+			rgba(20, 2, 2, 0.8)),
 		url(img/grapes.jpg);
 	background-attachment: fixed;
 }
@@ -456,6 +454,7 @@ body {
 	margin: 50px auto;
 	width: 90%;
 }
+
 #timeline:before {
 	top: 0;
 	bottom: 0;
@@ -492,6 +491,7 @@ body {
 	margin-left: -60px;
 	border: 2px solid #4997cd;
 }
+
 #timeline .timeline-badge.timeline-future-movement p {
 	color: #1782cc;
 	position: absolute;
@@ -503,6 +503,7 @@ body {
 	position: relative;
 	margin-bottom: 10rem;
 }
+
 #timeline .timeline-movement.timeline-movement-top {
 	height: 60px;
 }
@@ -563,116 +564,98 @@ body {
 	margin: 1rem 2rem;
 }
 
-.imageFront1 {
+.imageFront1,
+.imageFront2,
+.imageFront3,
+.imageFront4,
+.imageFront5,
+.imageFront6,
+.imageFront7,
+.imageFront8 {
 	background-size: cover;
 	height: 30rem;
 	background-blend-mode: screen;
 	background-position: top;
+
+}
+
+.imageFront1 {
 	background-image: url(img/ResturantReservation.PNG);
 }
 
 .imageFront2 {
-	background-size: cover;
-	height: 30rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/dogGroom.PNG);
 }
 
 .imageFront3 {
-	background-size: cover;
-	height: 30rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/weatherApp.PNG);
 }
 
 .imageFront4 {
-	background-size: cover;
-	height: 30rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/raid-webiste.png);
 }
 
 .imageFront5 {
-	background-size: cover;
-	height: 30rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/hangman-website.png);
 }
 
 .imageFront6 {
-	background-size: cover;
-	height: 30rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/pokemon-webiste.png);
 }
 
 .imageFront7 {
-	background-size: cover;
-	height: 30rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/hll-website.png);
 }
 
-.imageBack1 {
+.imageFront8 {
+	background-image: url(img/wifi-wander.png);
+}
+
+.imageBack1,
+.imageBack2,
+.imageBack3,
+.imageBack4,
+.imageBack5,
+.imageBack6,
+.imageBack7,
+.imageBack8 {
 	background-size: cover;
 	height: 23rem;
 	background-blend-mode: screen;
 	background-position: top;
+
+}
+
+.imageBack1 {
 	background-image: url(img/ResturantReservation.PNG);
 }
 
 .imageBack2 {
-	background-size: cover;
-	height: 23rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/dogGroom.PNG);
 }
 
 .imageBack3 {
-	background-size: cover;
-	height: 23rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/weatherApp.PNG);
 }
 
 .imageBack4 {
-	background-size: cover;
-	height: 23rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/raid-webiste.png);
 }
 
 .imageBack5 {
-	background-size: cover;
-	height: 23rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/hangman-website.png);
 }
 
 .imageBack6 {
-	background-size: cover;
-	height: 23rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/pokemon-webiste.png);
 }
 
 .imageBack7 {
-	background-size: cover;
-	height: 23rem;
-	background-blend-mode: screen;
-	background-position: top;
 	background-image: url(img/hll-website.png);
+}
+
+.imageBack8 {
+	background-image: url(img/wifi-wander.png);
 }
 
 .frontText {
@@ -688,11 +671,9 @@ body {
 	font-size: 2vw;
 	padding: 1rem 1.5rem;
 	line-height: 1.91 !important;
-	background-image: linear-gradient(
-		to right bottom,
-		rgba(241, 244, 249, 0.85),
-		rgba(241, 244, 249, 0.85)
-	);
+	background-image: linear-gradient(to right bottom,
+			rgba(241, 244, 249, 0.85),
+			rgba(241, 244, 249, 0.85));
 }
 
 .flip-container {
@@ -704,6 +685,7 @@ body {
 .flip-container:hover .cardBack {
 	transform: rotateY(0deg);
 }
+
 .flip-container:hover .cardFront {
 	transform: rotateY(180deg);
 }
@@ -759,6 +741,7 @@ body {
 		visibility: hidden;
 		transform: none;
 	}
+
 	.cardBack {
 		visibility: visible;
 		transform: none;
@@ -810,11 +793,9 @@ footer {
 	height: 68rem;
 	background-size: cover;
 	background-position: top;
-	background-image: linear-gradient(
-			to right bottom,
+	background-image: linear-gradient(to right bottom,
 			rgba(1, 1, 12, 0.7),
-			rgba(1, 1, 12, 0.7)
-		),
+			rgba(1, 1, 12, 0.7)),
 		url(img/trevi-2.jpg);
 }
 
